@@ -14,8 +14,8 @@ style = ttk.Style()
 style.configure("TNotebook", background='DeepPink', foreground='white') 
   
 window.title("Sissy Maid Training")
-window.geometry("800x550")  
-tab_control = ttk.Notebook(window, padding=(10, 5, 10, 5), style="TNotebook")
+window.geometry("693x555")  
+tab_control = ttk.Notebook(window, padding=(5, 5, 5, 5), style="TNotebook")
 
 
 
@@ -23,12 +23,14 @@ tab_control = ttk.Notebook(window, padding=(10, 5, 10, 5), style="TNotebook")
 tab1 = ttk.Frame(tab_control)
   
 tab2 = ttk.Frame(tab_control)
+
+tab3 = ttk.Frame(tab_control)
   
 tab_control.add(tab1, text='First')
   
 tab_control.add(tab2, text='Second')
 
-tab_control.add(tab2, text='third')
+tab_control.add(tab3, text='Third')
 
   
 lbl1 = Label(tab1, text= 'label1')
