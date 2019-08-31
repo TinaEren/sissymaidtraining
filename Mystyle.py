@@ -10,21 +10,21 @@ from tkinter import ttk
 from tkinter import *
 
 root = tkinter.Tk()
-
 root.title("Maid Training")
-root.geometry("693x555")
+root.geometry("692x555")
 
 style = ttk.Style()
-settings = { "TNotebook": {"configure": {"padding": [5, 5, 5, 5],"background":"DeepPink" },
+settings = { "TNotebook": {"configure": {"padding": [5, 5, 5, 5],"background":"DeepPink" }},
              "TNotebook.Tab": {"configure": {"padding": [5, 1],
                                              "background": "#f0f0f0"
                                              }
                                }
              }
+style.theme_create("Maidstyle", parent="alt", settings=settings)
+style.theme_use("Maidstyle")
 
-style.theme_create("Mystyle", parent="alt", settings=settings)
-style.theme_use("Mystyle")
 
+             
 def on_tab(event):
     global tab_styles
     global style
