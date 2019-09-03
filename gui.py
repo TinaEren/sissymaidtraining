@@ -15,7 +15,7 @@ root.geometry("692x555")
 
 style = ttk.Style()
 settings = { "TNotebook": {"configure": {"padding": [5, 5, 5, 5],"background":"DeepPink" }},
-             "TNotebook.Tab": {"configure": {"padding": [5, 1],
+             "TNotebook.Tab": {"configure": {"padding": [3, 3],
                                              "background": "#f0f0f0"
                                              }
                                }
@@ -48,45 +48,45 @@ f7 = tkinter.Frame(nb, background="#ffffff")
 f8 = tkinter.Frame(nb, background="#ffffff")
 f9 = tkinter.Frame(nb, background="#ffffff")
 
-nb.add(f1, text="Tab4")
-tab_styles["Tab1"] = {"background": [("selected", "#ffffff")],
+nb.add(f1, text="Report")
+tab_styles["Report"] = {"background": [("selected", "#ffffff")],
                                               "foreground": [("selected", "#000000")]
                                               }
 
-nb.add(f2, text="Tab2")
-tab_styles["Tab8"] = {"background": [("selected", "#ffffff")],
+nb.add(f2, text="Status")
+tab_styles["Status"] = {"background": [("selected", "#ffffff")],
                                                 "foreground": [("selected", "#000000")]
                                                 }
-nb.add(f3, text="Tab3")
-tab_styles["Tab3"] = {"background": [("selected", "#ffffff")],
+nb.add(f3, text="Maid in uniform")
+tab_styles["Maid in uniform"] = {"background": [("selected", "#ffffff")],
                       "foreground": [("selected", "#000000")]
                       }
 
-nb.add(f4, text="Tab4")
-tab_styles["Tab4"] = {"background": [("selected", "#ffffff")],
+nb.add(f4, text="Chores for the maid")
+tab_styles["Chores for the maid"] = {"background": [("selected", "#ffffff")],
                                               "foreground": [("selected", "#000000")]
                                               }
 
-nb.add(f5, text="Tab5")
-tab_styles["Tab5"] = {"background": [("selected", "#ffffff")],
+nb.add(f5, text="Training Of the maid")
+tab_styles["Training of the maid"] = {"background": [("selected", "#ffffff")],
                                                 "foreground": [("selected", "#000000")]
                                                 }
-nb.add(f6, text="Tab6")
-tab_styles["Tab6"] = {"background": [("selected", "#ffffff")],
+nb.add(f6, text="Permissions")
+tab_styles["Permissions"] = {"background": [("selected", "#ffffff")],
                       "foreground": [("selected", "#000000")]
                       }
 
-nb.add(f7, text="Tab7")
-tab_styles["Tab7"] = {"background": [("selected", "#ffffff")],
+nb.add(f7, text="Punishments")
+tab_styles["Punishments"] = {"background": [("selected", "#ffffff")],
                                               "foreground": [("selected", "#000000")]
                                               }
 
-nb.add(f8, text="Tab8")
-tab_styles["Tab8"] = {"background": [("selected", "#ffffff")],
+nb.add(f8, text="Assigned to")
+tab_styles["Assigned to"] = {"background": [("selected", "#ffffff")],
                                                 "foreground": [("selected", "#000000")]
                                                 }
-nb.add(f9, text="Tab9")
-tab_styles["Tab9"] = {"background": [("selected", "#ffffff")],
+nb.add(f9, text="?")
+tab_styles["?"] = {"background": [("selected", "#ffffff")],
                       "foreground": [("selected", "#000000")]
                       }
 
